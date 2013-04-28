@@ -9,7 +9,6 @@ import net.minecraft.block.Block;
 import net.minecraft.block.BlockContainer;
 import net.minecraft.block.material.Material;
 import net.minecraft.client.renderer.texture.IconRegister;
-import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.dispenser.IBlockSource;
 import net.minecraft.dispenser.IPosition;
 import net.minecraft.dispenser.PositionImpl;
@@ -28,7 +27,7 @@ import net.minecraft.world.World;
             super(id, Material.wood);
             this.setHardness(5.2F);
             this.setResistance(10.0F);
-            this.setCreativeTab(CreativeTabs.tabDecorations);
+            this.setCreativeTab(DarkMagicTech2.tabDtblocks);
             this.setUnlocalizedName("Writer");
         }
         public void onBlockAdded(World par1World, int par2, int par3, int par4)

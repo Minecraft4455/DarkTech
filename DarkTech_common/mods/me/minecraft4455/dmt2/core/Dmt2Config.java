@@ -19,9 +19,10 @@ public class Dmt2Config {
     //public static @CfgId(block=true) int blockId = 350;
     //public static @CfgBool boolean booleanConfig = false;
     public static @CfgId(block=true) int WriterID = 4000;
-    public static @CfgId(block=true) int HullConstructerID = 4001;
-    public static @CfgId(block=true) int WorkBenchWoodenHullID = 4002;
-    public static @CfgId(block=true) int DiversionPortal = 4003;
+    public static @CfgId(block=true) int WorkBenchWoodenHullID = 4001;
+    public static @CfgId(block=true) int WorkBenchIronHullID = 4002;
+    public static @CfgId(block=true) int WorkBenchObsidianHullID = 4003;
+    public static @CfgId(block=true) int WorkBenchDiamondHullID = 4004;
 
     public static void  load(Configuration config) {
         try {

@@ -5,16 +5,16 @@ import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.client.renderer.texture.IconRegister;
 
-public class BlockWorkBenchWoodenHull extends Block {
-    public BlockWorkBenchWoodenHull(int id) {
-        super(id, Material.wood);
+public class BlockWorkBenchObsidianHull extends Block {
+    public BlockWorkBenchObsidianHull(int id) {
+        super(id, Material.iron);
         this.setResistance(5F);
         this.setHardness(5F);
-        this.setUnlocalizedName("WorkBenchWoodenHull");
+        this.setUnlocalizedName("WorkBenchObsidianHull");
         this.setCreativeTab(DarkMagicTech2.tabDtblocks);
         this.setStepSound(soundWoodFootstep);
     }
     public void registerIcons(IconRegister par1IconRegister) {
-        this.blockIcon = par1IconRegister.registerIcon("minecraft4455:WorkBenchWoodenHull");
+        this.blockIcon = par1IconRegister.registerIcon("minecraft4455:WorkBenchObsidianHull");
     }
 }
